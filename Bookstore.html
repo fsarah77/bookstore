@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Bookstore</title>
+    <link rel="stylesheet" href="bookstore.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_package_v0.16 (1)/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_package_v0.16 (1)/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_package_v0.16 (1)/mstile-150x150.png">
+    <link rel="manifest" href="manifest.json">
+    <link rel="mask-icon" href="favicon_package_v0.16 (1)/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <header>
+        <h1>Online Bookstore</h1>
+    </header>
+    <section class="book-grid">
+        <div class="book">
+            <img src="Images/1.jpg" alt="Book Cover 1">
+            <h2>The Young Wizard</h2>
+            <p>Aaron Loeb</p>
+            <p>$10.99</p>
+        </div>
+
+        <div class="book">
+            <img src="Images/2.jpg" alt="Book Cover 2">
+            <h2>Soul</h2>
+            <p>Olivia Wilson</p>
+            <p>$11.99</p>
+        </div>
+
+        <div class="book">
+            <img src="Images/3.jpg" alt="Book Cover 3">
+            <h2>The Invisible Man</h2>
+            <p>Olivia Wilson</p>
+            <p>9.99</p>
+        </div>
+
+        <div class="book">
+            <img src="Images/4.jpg" alt="Book Cover 4">
+            <h2>Intuition</h2>
+            <p>Rosa Maria Aguado</p>
+            <p>$14.99</p>
+        </div>
+
+        <div class="book">
+            <img src="Images/5.jpg" alt="Book Cover 5">
+            <h2>The Whispering Throne</h2>
+            <p>Francis Mercer</p>
+            <p>$11.99</p>
+        </div>
+
+     </section>
+
+     <section class="popular-books">
+        <h1>Popular books</h1>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Author</th>
+                        <th>Genre</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                         <tr>
+                            <td>Delia Owens</td>
+                            <td>Fiction, Mystery</td>
+                            <td>Set in the marshlands of North Carolina, this novel follows the life of Kya Clark, a young girl abandoned by her family and left to raise herself. The story intertwines a coming-of-age tale with a murder mystery, exploring themes of loneliness, resilience, and the impact of isolation on the human spirit.
+                            </td>
+                        </tr>
+
+                            <td>Michelle Obama</td>
+                            <td>Biography, Memoir</td>
+                            <td>In her deeply personal memoir, former First Lady Michelle Obama chronicles her journey from a working-class neighborhood in Chicago to the White House. The book offers an intimate look at her experiences, from her childhood to her role as a mother, advocate, and global icon, inspiring readers with her story of determination and perseverance.
+                            </td>
+                        </tr>
+
+                            <td>Alex Michaelides</td>
+                            <td>Psychological Thriller</td>
+                            <td>This gripping thriller follows Alicia Berenson, a famous painter who shoots her husband and then stops speaking entirely. The novel delves into the mystery of her silence and the efforts of a psychotherapist determined to uncover the truth. With unexpected twists, this psychological drama keeps readers on the edge of their seats.</td>
+                        </tr>
+
+                        </tbody>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+     </section>
+
+     <section class="order-form">
+        <h2>Order Form</h2>
+        <form>
+            <label for="book">Select Book:</label>
+            <select id="book" name="book">
+                <option value="book1">The Young Wizard</option>
+                <option value="book2">Invisible Man</option>
+                <option value="book3">Soul</option>
+                <option value="book4">The Client</option>
+                <option value="book5">Becoming</option>
+                <option value="book2">Percy Jasckson</option>
+                <option value="book3">The Jury</option>
+                <option value="book4">Kite Runner</option>
+          
+            </select>
+            <br>
+    
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+    
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+    
+            <label for="address">Shipping Address:</label><br>
+            <textarea id="address" name="address" required></textarea><br>
+    
+            <button type="submit">Place Order</button><br>
+        </form>
+    </section>
+    
+    
+</body>
+</html>
